@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <script   src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">  
+
+         <p class="message"><span class='active-player-name'></span> Tic Tac Toe <span class='active-player-symbol'></span></p> 
+         <div class="container-2"> 
+      <div class="left-sec">   <p>Choose player names and press the button when ready.</p> 
+        <p>Player 1:</p><input type="text"  id="player-one"> 
+        <p>Player 2:</p><input type="text" id="player-two"><br><br> <button class="new-game-button">New Game</button></div> 
+
+        <div class="game-container">
+            <button class="symbolPlay" data-x="0" data-y="2"></button>
+            <button class="symbolPlay" data-x="1" data-y="2" ></button>
+            <button class="symbolPlay" data-x="2" data-y="2" ></button>
+            <button class="symbolPlay" data-x="0" data-y="1" ></button>
+            <button class="symbolPlay" data-x="1" data-y="1" ></button>
+            <button class="symbolPlay" data-x="2" data-y="1" ></button>
+            <button class="symbolPlay" data-x="0" data-y="0" ></button>
+            <button class="symbolPlay" data-x="1" data-y="0" ></button>
+            <button class="symbolPlay" data-x="2" data-y="0" ></button>
+        </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
