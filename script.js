@@ -20,8 +20,10 @@ const newGameButton = document.querySelector('.new-game-button');
 newGameButton.addEventListener('click', ()=>{
     let playerOneInput = document.querySelector('#player-one');
     let playerTwoInput = document.querySelector('#player-two');
-     initGame(playerOneInput.value, playerTwoInput.value);
 
+    if(playerOneInput.value != '' && playerTwoInput.value != ''){
+     initGame(playerOneInput.value, playerTwoInput.value);
+    }
 }
 );
 
